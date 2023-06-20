@@ -1,0 +1,166 @@
+@charset "utf-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lora&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lora', sans-serif;
+}
+
+body{
+    background-color: #7ececa;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #c7ede8;
+    padding: 2.5rem;
+}
+
+h1{
+    color: #545b55;
+    font-size: 2rem;
+}
+
+button{
+    background-color: #7ececa;
+    color: #545b55;
+    font-weight: bold;
+    padding: 10px;
+    border: solid #45b5c4;
+    border-radius: 10px;
+    font-size: 1rem;
+    transition: 50ms;
+}
+
+button:hover{
+    cursor: pointer;
+    transform: translateX(5px) translateY(5px);
+    box-shadow: 8px 10px 0px #a0ded6;
+}
+
+.tabuada{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 4rem;
+}
+
+h2{
+    margin: 1rem;
+    font-size: 1.5rem;
+    background-color: #c7ede8;
+    color: #545b55;
+}
+
+input{
+    margin: 1rem;
+    padding: 0.4rem;
+    border: solid 1px;
+    border-radius: 0.5rem;
+    width: 12rem;
+    font-size: 1rem;
+    background-color: #c7ede8;
+    border: solid #45b5c4 2px;
+}
+
+textarea:focus, input:focus {
+    box-shadow: 0 0 0 0;
+    outline: 0;
+}
+
+.btn2{
+    background-color: #c7ede8;
+    border: #45b5c4 solid;
+    color: #545b55;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.btn2:hover{
+    transform: translateX(5px) translateY(5px);
+    box-shadow: 2px 8px 0px #c7ede8;
+}
+
+#tabela-tabuada{
+    color: #085b68;
+    margin: 0.8rem;
+    font-size: 1.2rem;
+}
+
+/*modo escuro*/
+.dark-mode{
+    background-color: #255553;
+    color: #2c2c2b;
+}
+
+.dark-mode header{
+    background-color: #424943;  
+}
+
+.dark-mode h1{
+    color: #c7ede8;
+    font-size: 2rem;
+}
+
+.dark-mode p{
+    color: #c7ede8;
+}
+
+.dark-mode .btn2{
+    background-color: #339692;
+    border: solid #3dfae1;
+}
+
+.dark-mode .btn2:hover{
+    box-shadow: 2px 8px 0px #65e0dc;
+}
+
+.dark-mode #tabela-tabuada{
+    color: #c7ede8;
+}
+
+.dark-mode footer{
+    background-color: #424943;
+}
+
+/*modo escuro*/
+
+footer{
+    background-color: #c7ede8;
+    display: flex;
+    flex-direction: row; 
+    width: 100%;
+    bottom: 0;
+    top: 5rem;
+    position: relative;
+}
+
+.logo{
+    margin-left: 4.5rem;
+    margin-top: 1rem;
+}
+
+p{
+    font-size: 1.2rem;
+    margin-top: 4rem;
+    margin-left: 8rem;
+}
+
+.icons{ 
+    margin-top: 6.5rem;
+    margin-left: -22rem;
+}
+
+span{
+    margin-top: 10rem;
+    margin-left: -14rem;
+    font-size: 1.2rem;
+    color: #1693a5;
+    font-weight: bold;
+}
